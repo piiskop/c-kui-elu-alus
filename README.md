@@ -1,1 +1,1 @@
-the manual for RStudio Server from a user's perspective
+Tallinna Ülikooli tudengi peacecop kalmeri: referaat teemal "Süsinik kui elu alus" õppeteemas "Orgaaniline keemia I".
