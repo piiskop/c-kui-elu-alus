@@ -1,0 +1,55 @@
+# Eluks sobilikuim keemiline element
+
+Organismid koosnevad ainest, millel on ruumala ja mass. Aine koosneb elementidest. Keemiline element on tegelikult ka aine, aga selline aine, mida keemilise reaktsiooni kaudu väiksemateks aineteks lõhkuda ei saa. Keemiline ühend on aine, mis koosneb erinevatest elementidest kindlas suhtes. `r render_with_emojis("((ref:reece-2014-campbell), p. 29)")`.
+
+Arvatakse, et vähemalt 24 keemilist elementi on elusaine jaoks hädavajalikud `r render_with_emojis(text = "((ref:haynes-2014-crc), p. 4-1)")`, et tervis oleks korras ja saaks toota järglasi `r render_with_emojis("((ref:reece-2014-campbell), p. 29)")`. Eri organismide seas see arv varieerub. Nt inimesed vajavad 25 elementi, taimed ainult 17. Elusaine koosneb 96% ainult nelja elemendi - hapniku, süsiniku (18.5%), vesiniku ja lämmastiku - aatomitest. Aatom on kõige väiksem aine osa, millel on elemendi omadused, mille aatom see on `r render_with_emojis("((ref:reece-2014-campbell), p. 30)")`.
+
+Robert Hazen arutleb teoses `r render_with_emojis(text = "(ref:hazen-2019-why)")`, milline keemiline element võiks mängida elus kõige suuremat rolli. ta esitab sellele elemendile järgmised kriteeriumid:
+
+1. külluslikult leiduv nii Maa koores, ookeanides kui atmosfääris,
+
+2. võimekus osaleda paljudes keemilistes reaktsioonides,
+
+3. mitte liiga reaktiivne,
+
+4. võimeline moodustama ahelaid, ringe, harusid ja lõkse,
+
+5. võimeline moodustama eri suurusega molekule,
+
+6. võimeline tegelema üheaegselt mitme ülesandega,
+
+7. võimeline säilitama, paljundama ja tõlgendama teavet,
+
+8. võimeline moodustama vastupidavaid ja püsivaid membraane ja fiibreid,
+
+9. võimeline hankima, säilitama ja vabastama energiat.
+
+Robert Hazen võtab ette keemiliste elementide perioodilisussüsteemi ja asub analüüsima, milline element võiks kõikidele nendele kriteeriumidele vastata.
+
+Vesinik suudab ühenduda korraga ainult ühe muu aatomiga ega suuda seega olla mitmekülgne.
+
+Heelium on liiga inertne, et oma mugavustsoonist väljuda, uusi suhteid luua ja asendeid proovida, sest tegemist on väärgisgaasiga, mille aatomi väliskiht on täiuslik. Sama võib väita neooni ja argooni kohta.
+
+Liitium, berüllium ja boor on liiga haruldased, et ehitada biosfääri.
+
+Lämmastik on liiga ahne moodustamaks ühendeid ja ühendis olles liiga püsiv.
+
+Hapnikku on küll külluses, ent sellegi elemendi aatomid moodustavad ühendeid liiga kergesti, kuid ei suuda moodustada ahelaid ja ringe, mis on elu arhitektuuriks vajalikud.
+
+Fluori aatomil on vaid üks elektron puudu väliskihil, et see oleks täiuslik. Seetõttu püüab see agaralt luua sidemeid muude aatomitega mõjudes hävituslikult. Nii see korrodeerib rauda, söövitab klaasi, plahvatab kokkupuutel veega ja tapab inimese keha, kui fluori sisaldavat gaasi sisse hingab.
+
+Naatriumi, magneesiumi ja alumiiniumi aatomid annavad liiga meelsasti elektrone ära.
+
+Ränil on kõige enam potentsiaali olemaks elu aluselement, sest sellele on väliskihil neli elektroni, mis tähendab, et vahet pole, kas loovutab või liidab elektrone. Ometi on räni aatom ahne hapniku aatomite järele ja kui juba liit on moodustatud, siis seda hoitakse, mis nullib paindlikkuse. Ränist võiks küll luua eluvorme, ometi kui selline eluvorm puutub kokku hapnikuga, ta kivistub. Ränist ei saa moodustada pikki püsivaid ahelaid `r render_with_emojis(text = "((ref:haynes-2014-crc), p. 4-8)")`.
+
+Fosfori, väävli ja kloori aatomid liidavad liiga kergesti elektrone.
+
+Perioodilisussüsteemis argoonile järgnevaid elemente esineb Maa sfäärides liiga vähe, et olla elu elementaaraluseks.
+
+Raud võiks küll veel kõne alla tulla, kuna moodustab hõlpsasti sidemeid, ent need sidemed on eesmärgiga moodustada suuri molekule. Eluks on vaja ka väikesed molekule, mistõttu raud ei sobi.
+
+Nii et üle jääb vaid üks element, mis vastab kõikidele elu aluseks oleva elemendi kriteeriumidele - süsinik.
+
+Süsinik on meie ümber ja sees kõikjal. Robert Hazen kirjeldab, kuidas orkestri iga instrument koosneb mingis osas süsiniku aatomitest ja isegi kui ei koosne, siis on süsinik selle pilli hooldamiseks vajalikus määrdeaines. Süsinik ühendab maad, õhku, vett, tuld. Maa kasvatab tahkeid kristalle, mis moodustavad kivimid. Süsiniku molekulid lendlevad õhus. Süsinikku sisaldavat sütt saab põletada ja tule abil ehitada. Vesi toidab elu.
+
+Lihtsam on loendada meie kasutatavaid vahendeid, mis ei sisalda süsinikku kui kümnendikku neid vahendeid, mis sisaldavad.

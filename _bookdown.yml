@@ -3,5 +3,10 @@ new_session: false
 delete_merged_file: true
 rmd_files: [
   "index.Rmd",
+  "rmd/elu.Rmd",
+  "rmd/elu-keemiline-element.Rmd",
+  "rmd/c.Rmd",
+  "rmd/c-rakendused.Rmd",
+  "rmd/conclusion.Rmd",
   "references.Rmd"
 ]
