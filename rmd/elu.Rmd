@@ -1,9 +1,11 @@
 # Elu
 
-Mis on elu? Teadlased pole üksmeelel *elu* defineerimises. Elu tunnusteks peetakse kasvamist ja taastootmist. Kas muul on elusolend? ta kasvab, aga ei suuda saada järglasi. Kas ta on seetõttu elutu olem? `r render_with_emojis(text = "((ref:a2022-what), 23:30)")`. Kristallid kasvavad. Kas kristallid on seetõttu elusolendid?
+Mis on elu? Teadlased pole üksmeelel *elu* defineerimises. Elu tunnusteks peetakse kasvamist ja taastootmist. Kas muul on elusolend? ta kasvab, aga ei suuda saada järglasi. Kas ta on seetõttu elutu olem? [@a2022_what(alates 23:30)]. Kristallid kasvavad. Kas kristallid on seetõttu elusolendid?
 
-Kas tehislik elu on elu? Kui suhtlus on elu tunnus ja suudetakse tehisrakud suhtlema panna rakkudega, keda peetakse mittetehislikuks, siis kas tehislikud rakud on elu? `r render_with_emojis(text = "((ref:a2022-what), 28:02)")`.
+Kas tehislik elu on elu? Kui suhtlus on elu tunnus ja suudetakse tehisrakud suhtlema panna rakkudega, keda peetakse mittetehislikuks, siis kas tehislikud rakud on elu? [@a2022_what(alates 28:02)]
 
-1969\. ja 1970. aastal John Conway ja Bill Gosper uurisid *Conway's Game of Life*-nimelise elumängu teooriat `r render_with_emojis(text = "((ref:johnston-2021-conways), p. 41)")`. Uurimus viidi esmalt läbi paberi ja pliiatsiga, hiljem kaasati arvutustehnika. Ekraanile ilmuvad *rakud* surevad või sünnivad vastavalt nende ümber olevate rakkude arvule. Nii kaua, kui elektrivool arvutit läbib ja mäng kestab, *elu käib*.
+1969\. ja 1970. aastal John Conway ja Bill Gosper uurisid *Conway's Game of Life*-nimelise elumängu teooriat[@johnston_2021_conways, 41]. Uurimus viidi esmalt läbi paberi ja pliiatsiga, hiljem kaasati arvutustehnika. Ekraanile ilmuvad *rakud* surevad või sünnivad vastavalt nende ümber olevate rakkude arvule. Nii kaua, kui elektrivool arvutit läbib ja mäng kestab, *elu käib*. Seetõttu on sellise tehisliku elu aluseks elektronide suunatud liikumine ja materjaliks, mille sees selline liikumine toimub, kasutatakse küll eelkõige kättesaadavuse tõttu anorgaanilisi aineid, kuid uuritakse ka orgaanilise aine grafeeni kasutamist elektrivooluks, sest grafeen on väga hea elektrijuht.
 
-Looduslikku elu uuritakse bioloogia teaduses. Organismid ja nende keskkonnad on looduslikud süsteemid, millele rakendatakse füüsika ja keemia kontseptsioone `r render_with_emojis("((ref:reece-2014-campbell), p. 28)")`.
+Looduslikku elu uuritakse bioloogia teaduses. Organismid ja nende keskkonnad on looduslikud süsteemid, millele rakendatakse füüsika ja keemia kontseptsioone[@reece_2014_campbell, 28].
+
+Siinses referaadis käsitlen looduslikku elu.

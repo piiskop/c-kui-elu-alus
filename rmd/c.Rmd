@@ -2,19 +2,17 @@
 
 ## Põhiomadused
 
-Keemilise elemendi aatomi tuuma iseloomustavad selle prootonite ja neutronite arv `r render_with_emojis(text = "((ref:haynes-2014-crc), p. 4-2)")`. Elemendi isotoopide prootonite arv on sama, kuid neutronite arv erineb. Elemendi massiarv on prootonite ja neutronite summa.
+Keemilise elemendi aatomi tuuma iseloomustavad selle prootonite ja neutronite arv[@haynes_2014_crc, 4-2]. Elemendi isotoopide prootonite arv on sama, kuid neutronite arv erineb. Elemendi massiarv on prootonite ja neutronite summa.
 
-Süsinik on keemiline element, mis asub keemiliste elementide perioodilisussüsteemis kuuendal kohal. See kuues koht tähendab, et süsiniku aatomis on kuus prootonit ja kuus elektroni. Süsiniku elektronvalem on
+Süsinik on keemiline element, mis asub keemiliste elementide perioodilisussüsteemis kuuendal kohal. See kuues koht tähendab, et süsiniku aatomis on kuus prootonit ja kuus elektroni. Vastavalt süsiniku elektronvalemile \@ref(eq:elconf-c) leheküljel `r render_pageref(reference = "eq:elconf-c")` on süsiniku aatomi väliskihil neli elektroni. See tähendab, et süsiniku aatomil pole vahet, kas võtta neli elektroni juurde või loobuda neljast elektronist, et väliskiht oleks täidetud. Seetõttu moodustab süsiniku aatom hõlpsasti ühendeid teiste elementide aatomitega, aga ka süsiniku aatomitega.
 
 ```{=latex}
 \begin{align}
-    \elconf{6},
+    \elconf{6}.
     (\#eq:elconf-c)
 \end{align}
 
 ```
-
-millest johtuvalt on süsiniku aatomi väliskihil neli elektroni. See tähendab, et süsiniku aatomil pole vahet, kas võtta neli elektroni juurde või loobuda neljast elektronist, et väliskiht oleks täidetud. Seetõttu moodustab süsiniku aatom hõlpsasti ühendeid teiste elementide aatomitega, aga ka süsiniku aatomitega.
 
 Nurk sidemete loomiseks on samuti soodne. Kui süsiniku aatomiga on seotud:
 
@@ -28,7 +26,7 @@ all.
 
 Niiviisi on seotud aatomid üksteisest segamatul kaugusel.
 
-`r render_with_emojis(text = "((ref:carbon))")`.
+[@carbon]
 
 Süsinik on keemiliste elementide seas unikaalne, kuna suudab moodustada suurt arvu eri variatsioonidega ühendeid. Sageli on üks süsiniku aatom teise küljes. Ligi kümme miljonit süsinikuühendit on teada ja nendest mitmed tuhanded on olulised elulisteks ja orgaanilisteks protsessideks. Ilma süsinikuta ei ole looduslik elu võimalik.
 
@@ -41,28 +39,32 @@ Ainult süsiniku aatomitest moodustatud molekulid võivad olla üksteisest väga
 
 Välja on töötatud rabe *klaasjas süsinik*, mida saab kõrge puhtusastmega. See peab hästi vastu korrosioonile, on termiliselt püsiv ning sellest ei tungi läbi ei gaasid ega vedelikud. Selle struktuur on üsna juhuslik. Kasutada saab kristallide kasvatamiseks ja tiiglite puhul, kui on vajalik, et need kõrgel temperatuuril ei moonduks.
 
-Süsinikul on 15 isotoopi: $\ce{^{8}C}$ kuni $\ce{^{22}C}$ `r render_with_emojis(text = "((ref:haynes-2014-crc), p. 11-4)")`. Looduslik süsinik koosneb 98.89% ulatuses $\ce{^{12}C}$'st ja 1.07% $\ce{^{13}C}$'st `r render_with_emojis(text = "((ref:haynes-2014-crc), p. 8-46)")`. 1961\. a sätestati $\ce{^{12}C}$ International Unionis of
-Pure and Applied Chemistry aatommasside aluseks. Puidu ja arheoloogiliste proovide dateerimiseks kasutatakse $\ce{^{14}C}$'d, mille poolestusaeg on 5715 a. Fullereenis on 99% $\ce{^{10}C}$'t.
+Süsinikul on 15 isotoopi: $\ce{^{8}C}$ kuni $\ce{^{22}C}$ [@haynes_2014_crc, 11-4]. Looduslik süsinik koosneb $\qty{98,89}{\percent}$ ulatuses $\ce{^{12}C}$'st ja $\qty{1,07}{\percent}$ $\ce{^{13}C}$'st [@haynes_2014_crc, 8-46]. 1961\. a sätestati $\ce{^{12}C}$ International Unionis of
+Pure and Applied Chemistry aatommasside aluseks. Puidu ja arheoloogiliste proovide dateerimiseks kasutatakse $\ce{^{14}C}$'d, mille poolestusaeg on 5715 a. Fullereenis on $\qty{99}{\percent}$ $\ce{^{10}C}$'t.
 
-Süsiniku ühendite uurimise teadus on orgaaniline keemia `r render_with_emojis("((ref:reece-2014-campbell), p. 56)")`.
+Süsiniku ühendite uurimise teadus on orgaaniline keemia[@reece_2014_campbell, 56].
 
 ## Ajalugu
 
-Vastavalt `r render_with_emojis(text = "(ref:haynes-2014-crc), p. 4-8")` avastati süsinik juba eelajalooliselt, kui seda  kasutati süsinikku söe ja kivisöena, millest tuleneb ka elemendi nimetus - *süsi* on ladina keeles *carbo* `r render_with_emojis("((ref:a2018-carbon))")`. Teemandid avastati Hiinas umbes 4500 a tagasi. 1722. a pakkus Antoine Ferchault de Réaumur välja, et süsinikku võiks kasutada tootmaks rauast terast. Teatavasti tänapäevas seda nii tehaksegi. 1772. aastas avastati teemant Euroopa jaoks ning 1786. a kinnitasid A. Vandermonde, Claude Louis Berthollet ja Gaspard Monge, et grafiidi ja teemandi koostis on sama.
+Süsinik avastati juba eelajalooliselt, kui seda  kasutati süsinikku söe ja kivisöena, millest tuleneb ka elemendi nimetus - *süsi* on ladina keeles *carbo*[@a2018_carbon]. Teemandid avastati Hiinas umbes 4500 a tagasi. 1722. a pakkus Antoine Ferchault de Réaumur välja, et süsinikku võiks kasutada tootmaks rauast terast. Teatavasti tänapäevas seda nii tehaksegi. 1772. aastas avastati teemant Euroopa jaoks ning 1786. a kinnitasid A. Vandermonde, Claude Louis Berthollet ja Gaspard Monge, et grafiidi ja teemandi koostis on sama.
 
-Estimest korda loodi orgaaniline aine 1828. a, kui Friedrich Wöhler pani kokku ammooniumi iooni ja tsüanaadi iooni ning sai saaduseks loomade pissis esineva orgaanilise ühendi uurea `r render_with_emojis("((ref:reece-2014-campbell), p. 57)")`.
+Esimest korda loodi orgaaniline aine 1828. a, kui Friedrich Wöhler pani kokku ammooniumi iooni ja tsüanaadi iooni ning sai saaduseks loomade pissis esineva orgaanilise ühendi uurea[@reece_2014_campbell, 57].
 
 ## Rohkus
 
-Süsinik on universumis levikult vesiniku (90% aatomite arvu järgi, 75% massi järgi `r render_with_emojis(text = "(ref:haynes-2014-crc), p. 4-1, 4-17")`), heeliumi (24% massi järgi) ja hapniku (1% massi järgi) järel neljandal kohal (.5% massi järgi `r render_with_emojis(text = "((ref:helmenstine-2020-what))")`) ning maakoores vahetult rubiidiumi ees `r render_with_emojis(text = "((ref:haynes-2014-crc), p. 4-1)")` 15. kohal `r render_with_emojis("((ref:a2018-carbon))")`. Maakoores leidub süsinikku $2 \cdot 10^{-4} \cdot \mathrm{\frac{kg_C}{kg_\text{maakoor}}}$, vees $2.8 \times 10^{-3} \times \mathrm{\frac{kg}{m^3}}$.
+Süsinik on universumis levikult vesiniku ($\qty{90}{\percent}$ aatomite arvu järgi, $\qty{75}{\percent}$ massi järgi[@haynes_2014_crc, 4-1, 4-17]), heeliumi ja hapniku järel neljandal kohal ($\qty{0,5}{\percent}$ massi järgi[@helmenstine_2020_what]) ning maakoores vahetult rubiidiumi ees[@haynes_2014_crc, 4-1] 15. kohal [@a2018_carbon]. Maakoores leidub süsinikku $2 \cdot 10^{-4} \cdot \mathrm{\frac{kg_C}{kg_\text{maakoor}}}$, vees $2.8 \times 10^{-3} \times \mathrm{\frac{kg}{m^3}}$.
 
-Süsinik moodustub peamiselt punastes hiiglastes. Kui süsinik ja hapnik ühinevad tähes nagu Päike, tekib lämmastik. `r render_with_emojis(text = "((ref:helmenstine-2020-what))")`.
+Süsinik moodustub peamiselt punastes hiiglastes. Kui süsinik ja hapnik ühinevad tähes nagu Päike, tekib lämmastik. [@helmenstine_2020_what].
 
 Süsinikku leidub looduses hulgaliselt, kus see on kolmel allotroopsel kujul: amorfsel, grafiidina ja teemandina. Mikroskoopilisi teemante on leitud meteoriitidest. Looduslikke teemante on leitud veel iidsetest torujatest moodustistest. Hea Lootuse neeme juures hangitakse teemandeid ookeani põhjast.
 
-Süsiniku moodustist hapniku aatomitega süsihappegaasi ($\ce{CO_2}$) leidub rohkelt atmosfääris ja looduslikes veekogudes. Lubjakivina (kaltsiumi), magneesiumi ja raua ühenditena leidub süsinikku kivimassiivides. Süsi, petrooleum ja looduslik gaas on peamiselt süsivesinikud.
+Süsiniku moodustist hapniku aatomitega süsihappegaasi ($\ce{CO_2}$) leidub rohkelt atmosfääris ja looduslikes veekogudes. Lubjakivina (kaltsiumi), magneesiumi ja raua ühenditena leidub süsinikku kivimassiivides.
 
-Inimese kehas on levinuimad keemilised elemendid vesinik, hapnik, süsinik ja lämmastik `r render_with_emojis(text = "((ref:haynes-2014-crc), p. 4-1)")`.
+Vesinik ühineb süsinikuga ja moodustab süsivesinikke. Süsi, petrooleum ja looduslik gaas on peamiselt süsivesinikud.
+
+Inimese kehas on levinuimad keemilised elemendid vesinik, hapnik, süsinik ja lämmastik[@haynes_2014_crc, 4-1].
+
+## Arvutusreeglistik
 
 Et süsinikku niivõrd palju ümberringi leidub, arvestatakse kõikide keemiliste elementide suhtelist aatommassi süsiniku aatommassi järgi. Kirjeldan järgnevalt, kuidas:
 
@@ -76,7 +78,7 @@ Elementaarüksus:
 
 4. elektron,
 
-5. mis tahes muu osake või osakeste rühm `r render_with_emojis(text = "((ref:bureau-1974-the), p. 134)")`.
+5. mis tahes muu osake või osakeste rühm[@bureau_1974_the, 134].
 
 aine hulk
 : määratletud elementaarüksuste arvu mõõt
@@ -98,7 +100,7 @@ N_\text{A} = 6,022 140 76 × 10^{23} \pm 4.4 × 10^{−8} \frac{1}{\mathrm{mol}}
 
 ```
 
-`r render_with_emojis(text = "((ref:bureau-1974-the), p. 127)")`.
+[@bureau_1974_the, 127].
 
 Avaldan Avogadro konstandist (\@ref(eq:avogadro-constant)) mooli:
 
@@ -123,7 +125,7 @@ n_\text{B} = \frac{N_\text{B}}{N_\text{A}},
 ```
 
 kus $N$ on üksuste arv (nt molekulid, aatomid,
-ioonid, valemiühikud) ja $N_\text{A}$ on Avogadro konstant (\@ref(eq:avogadro-constant)) `r render_with_emojis(text = "((ref:haynes-2014-crc), p. 2-8)")`. Dimensionaalanalüüs:
+ioonid, valemiühikud) ja $N_\text{A}$ on Avogadro konstant (\@ref(eq:avogadro-constant))[@haynes_2014_crc, 2-8]. Dimensionaalanalüüs:
 
 ```{=tex}
 \begin{align}
@@ -171,7 +173,7 @@ m_\text{u} = \frac{M_\text{u}}{N_\text{A}} = \frac{\qty{`r as.character(M_u)`}{\
 
 ```
 
-`r render_with_emojis(text = "((ref:bureau-1974-the), p. 287)")`, milles $m_\text{u}$ on ühtne aatommassi konstant ja näitab, kui palju kaalub üks süsinik-12 nukleon keskmiselt.
+[@bureau_1974_the, 287], milles $m_\text{u}$ on ühtne aatommassi konstant ja näitab, kui palju kaalub üks süsinik-12 nukleon keskmiselt.
 
 Süsinik-12 aatomi keskmise massi saame, kui korrutame süsinik-12 nukleoni keskmise massi nuklonide arvuga ühes süsinik-12 aatomis:
 

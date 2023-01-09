@@ -1,13 +1,11 @@
 --- 
 site: bookdown::bookdown_site
 
-author: "peacecop kalmer:"
 colorlinks: TRUE
-date: "`r Sys.Date()`"
 description: "Tallinna Ülikooli tudengi peacecop kalmeri: referaat teemal \"Süsinik kui elu alus\" õppeteemas \"Orgaaniline keemia I\"."
 lang: et
-title: |
-    Süsinik kui elu alus
+include-before:
+    - \input{title-page.tex}
 
 documentclass: book
 papersize: a4
@@ -20,7 +18,7 @@ mainfont: DejaVu Serif # for displaying both Chinese symbols and emojis
 CJKmainfont: Droid Sans Fallback
 
 bibliography: [references.bib]
-csl: apa.csl
+csl: apa-numeric-superscript-brackets.csl
 link-citations: yes
 
 lof: yes
@@ -219,8 +217,6 @@ render_color <- function(color, text) {
 
 Iga Tallinna Ülikooli 2022. a sügissemestri *Orgaaniline keemia I* tudeng kohustus kirjutama referaadi, mille teema sai etteantud teemade loendist valida. Kuna minu jaoks on elu oluline mõista ja elada, valisin teema, mille uurimisest võiks selleks abi olla.
 
-Kuna referaadi esialgne tähtaeg lõppes, kui me polnud veel jõudnud väga palju orgaanilist keemiat õppida, kirjutasin esmase teksti pealiskaudselt. Kursuse hilisema sisu kogemine aitas mul teemasse rohkem süübida.
-
 Kuna kirjutan süsinikust kui elu alusest, siis esmalt uurin, mis elu üldse on.
 
 Teises peatükis kirjeldan teekonda eluks sobilikuima keemilise elemendini, milleks osutub süsinik.
@@ -229,7 +225,7 @@ Loogiliselt järgneb süsiniku kirjeldamine nii selle olemuse, ajaloo kui rohkus
 
 Viimases peatükis seostan süsiniku eluliste protsessidega.
 
-Välised allikad on võimalusel viidatud lehekülje tunnuse või ajahetkega, millest alates väide esitatakse. Kui ise olen tahtnud viidatud välisest allikast, mille kohta pole väite asukohta täpsustatud, väidet leida, olen kulutanud otsimiseks liigselt aega. Eriti keeruliste tekstide puhul soovin näha võimalikult täpset asukohta. Seetõttu pakun ka oma lugejatele võimalust leida väide allikast kiiresti.
+Välised allikad on võimalusel viidatud lehekülje tunnuse või ajahetkega, millest alates väide esitatakse. Kui ise olen tahtnud viidatud välisest allikast, mille kohta pole väite asukohta täpsustatud, väidet leida, olen kulutanud otsimiseks liigselt aega. Eriti keeruliste tekstide puhul soovin näha võimalikult täpset asukohta. Seetõttu pakun ka oma lugejatele võimalust leida väide allikast kiiresti. Kasutuses on numbriline viitamine, et tekst oleks sujuvalt loetav. Täpsemalt on viitamisstiil *American Psychological Association 7th edition (numeric, brackets)*[@a2023_zotero].
 
 Referaat on avalikustatud ühekorraga kahes vormingus: veebivormingus ja trükivormingus. Soovitan referaati lugeda trükivormingus, sest ainult selles on kõik olemas. Veebivormingus ei ole näha need osad, mida *MathJax* ei oska `r render_nonmath_LaTeX_string_universal("\\LaTeX")`'i esitada.
 
@@ -238,5 +234,3 @@ Kogu teos on kirjutatud kasutades RStudio Serverit ja selles *bookdown*i koos `r
 Teos on täielikus vastavuses loomeväljundiga, mille pealkiri on *JUHEND
 loodusteaduste ja loodusainete didaktika erialade
 lõputööde koostamiseks ja vormistamiseks*.
-
-

@@ -1,27 +1,8 @@
 # Süsinik elus
 
-Süsinik suudab moodustada hiiglasliku arvu variatsioone eri pikkusega ahelaid.
-
-Kui molekulis on sama arv sama tüüpi aatomeid, kuid need on erinevalt paigutatud, on tegemist isomeeridega, mis jagunevad kolmeks:
-
-1. strukturaalsed isomeerid,
-
-2. *cis-trans*-isomeerid ja
-
-3. enantiomeerid.
-
-Elusolendid saavad peaaegu kogu oma süsiniku süsinikdioksiidist kas atmosfäärist või lahustununa veest. Rohelised taimed fotosünteesi kaudu ja fotosünteetiline plankton kasutavad Päikese energiat lõhustamaks vee molekule vesinikuks ja hapnikuks. Fotosünteesi kirjeldab joonis \@ref(fig:photosynthesis) leheküljel `r render_pageref(reference = "fig:photosynthesis")`. Fotosünteesiv taim kasutab atmosfäärist süsihappegaasi, pinnasest vett ja paneb need Päikese energia toimel omavahel reageerima tekitades energiavarude salvestamiseks glükoosi ja väljastades hapniku - sünteesiv protsess anabolism. inimene hingab sisse hapnikku ja põletab sissesöödud süsivesinikke ning toodab seeläbi vee ja süsihappegaasi saades samuti energiat - analüüsiv protsess katabolism. Seega on fotosünteesi reaktsioon mõlemapidine. Vesinik ühineb süsinikuga ja moodustab süsivesinikke.
-
-```{r label = "photosynthesis", echo=FALSE, fig.cap = paste("Pildil reageerivad süsihappegaas ja vesi Päikese energia toimel, et moodustada saadused glükoos ja hapnik ", render_with_emojis(text = "((ref:reece-2014-campbell), p. 41)"), ".", sep = "")}
-include_external_graphics("rmd/photosynthesis.png")
-
-```
-
-Mõned süsivesinikud moodustavad lämmastiku, fosfori ja muude elementidega eluks vajalikke monomeere nagu nt aluseid ja suhkruid ribonukleiinhappe ja deoksüribonukleiinhappe jaoks ning aminohappeid valkude jaoks.
+Elusolendid saavad peaaegu kogu oma süsiniku süsinikdioksiidist kas atmosfäärist või lahustununa veest. Rohelised taimed fotosünteesi kaudu ja fotosünteetiline plankton kasutavad Päikese energiat lõhustamaks vee molekule vesinikuks ja hapnikuks. Fotosünteesiv taim kasutab atmosfäärist süsihappegaasi, pinnasest vett ja paneb need Päikese energia toimel omavahel reageerima tekitades energiavarude salvestamiseks glükoosi ja väljastades hapniku - sünteesiv protsess anabolism. inimene hingab sisse hapnikku ja põletab sissesöödud süsivesinikke ning toodab seeläbi vee ja süsihappegaasi saades samuti energiat - analüüsiv protsess katabolism. Seega on fotosünteesi reaktsioon mõlemapidine.
 
 Elusolendid, kes ei fotosünteesi, saavad oma süsiniku molekulid tarbides muid elusolendeid. Selliste olendite seedesüsteemis lõhustatakse süsivesinikud monomeerideks, mida kasutatakse rakkude ülesehitamiseks saades selliste reaktsioonide jaoks vajaliku energia hingamisest. Hingamise kaudu ühineb hapnik süsivesinikuga ning moodustuvad taas süsihappegaas ja vesi.
-
-`r render_with_emojis(text = "((ref:royalsocietyofchemistry-2013-carbon))")`.
 
 Funktsionaalsed rühmad muudavad molekulide omadusi. Funktsionaalses rühmas on molekulile lisatud vesinik, süsinik, hapnik, fosfor või lämmastik. Kõik talitluslikud rühmad toimivad põhiliselt ühtmoodi sõltumata sellest, milline molekul on liidetud. inimese keha toimimises osalevad palju enamatest talitluslikest rühmadest kuus:
 
@@ -33,7 +14,7 @@ Funktsionaalsed rühmad muudavad molekulide omadusi. Funktsionaalses rühmas on 
 
 4. amino- ($\chemfig{-C(-[:30]N)-[:-30]N}$),
 
-5. sulfhüdrüül- ($\chemfig{-SH}$, `r render_with_emojis(text = "(ref:reece-2014-campbell), p. 63")`),
+5. sulfhüdrüül- ($\chemfig{-SH}$ [@reece_2014_campbell, 63]),
 
 5. fosfaat- ($\chemfig{-O-P(=[:90]O)(-[:-90]O-[:-90]H)-O-H}$) ja
 
@@ -41,16 +22,15 @@ Funktsionaalsed rühmad muudavad molekulide omadusi. Funktsionaalses rühmas on 
 
 grupp.
 
-`r render_with_emojis(text = "((ref:why), 5:59)")`.
+[@why(alates 5:59)]
+
+Adenosiintrifosfaadis saab rakk salvestada energiat. Kui adenosiintrifosfaadi molekul reageerib veega, vabaneb üks fosfaadirühm anorganiliseks fosfaadiks jättes endast järele adenosiindifosfaadi ja vallandades energiat.
+
+[@royalsocietyofchemistry_2013_carbon].
 
 Funktsionaalsete rühmade kaudu saab eristada sugusid. Kui östradioolis, mis on naissuguhormoon, on hüdroksüülrühm, siis meessuguhormoonis testosteroonis on selle asemel karbonüülrühm ning teises kohas lisaks metüülrühm, mida östradioolis pole.
 
-Adenosiintrifosfaadis saab rakk salvestada energiat. Selle kasutamine on esitatud joonisel 
-
-```{r label = "atp", echo=FALSE, fig.cap = paste("Pildil adenosiintrifosfaat omab võimet reageerida veega ning kui seda teeb, laguneb adenosiindifosfaadiks, anorgaaniliseks fosfaadiks ja vallandub energia. ", render_with_emojis(text = "((ref:reece-2014-campbell), p. 64)"), ".", sep = "")}
-include_external_graphics("rmd/atp.png")
-
-```
+Süsinik suudab moodustada hiiglasliku arvu variatsioone eri pikkusega ahelaid. See omadus võimaldab süsinikul olla elu põhielement.
 
 Süsinikust moodustatud makromolekule leidub hulgaliselt inimese toidus. Sellised orgaanilised makromolekulid on
 
@@ -64,20 +44,10 @@ Süsinikust moodustatud makromolekule leidub hulgaliselt inimese toidus. Sellise
 
 Ühist on kõiki neid tüüpi molekulidel süsinikuskelett. Erinevate keemiliste omaduste tõttu mõjuvad need toitumises ja tervisele erinevalt. Rasvad võivad olla nii küllastunud kui küllastumata. Esimestel on ainult üksiksidemed ja seetõttu on neid lihtne kokku pakkida, mistõttu on need enamasti tahkes faasis. Teistel on mitmiksidemeid, mistõttu neid nii lihtne kokku pakkida ei ole ja seetõttu on need enamasti vedelas faasis. inimese tervisele on sobilikumad küllastumata rasvad. Süsivesikud on lõhutavad süsiniku, vesiniku ja hapniku ahelad. Mida lihtsam süsivesik on, seda kiiremini saab organism sellest energia kätte. Tselluloos on selline süsivesik, mida inimene ei seedi, küll aga reguleerib see veresuhkru taset ja puhastab seedesüsteemi limaskesta. Valgud koosnevad süsinikskeletist ja 20 aminohappe eri paigutusest. Valgud on olulised meie rakkude ehitamiseks, organismi keemiliste reaktsioonide käivitamiseks ja reguleerimiseks, immuunsüsteemi toimimiseks ning meie rakkudevahelise suhtluse võimaldamiseks. Nukleiinhapped on süsiniku skeletid, mis on seotud nukleotiididega, mis on süsinikupõhised suhkrud, mis on seotud lämmastikupõhise alusega. Nukleiinhapped on meie deoksüribonukleiinhappe ja ribonukleiinhappe põhilised ehitusplokid, mis kannavad geneetilist koodi, mis vastutab kõigi kehastruktuuride ja funktsioonide eest.
 
-`r render_with_emojis(text = "((ref:kgsau))")`.
+[@kgsau]
 
-Süsiniku olulise rolli elus võtab kokku luuletus:
+Mõned süsivesinikud moodustavad lämmastiku, fosfori ja muude elementidega eluks vajalikke monomeere nagu nt aluseid ja suhkruid ribonukleiinhappe ja deoksüribonukleiinhappe jaoks ning aminohappeid valkude jaoks.
 
-> Углерод основа жизни.
+Süsinik mängib rolli ka filosoofilises elus. *Менделеевский календарный цикл*'s on tähistatud aastat 2022 kui süsiniku aastat, mis järgnes boori aastale. See pidi tähendama aastat mahukaks süstematiseerimiseks viimastel aastatel kujunenud erinevate ühiskondlik-poliitiliste süsteemide moraalsel ja vaimsel platvormil. Süstematiseerimise vorm olevat olnud varasemast erinev ja stabiliseeriv.
 
-> Всех систем он строит смыслы...
-
-> Он основа циклов всех…
-
-> С ним всегда придёт успех.
-
-`r tufte::quote_footer('--- Валерий Иванов-Виленский')`     
-
-*Менделеевский календарный цикл*'s on tähistatud aastat 2022 kui süsiniku aastat, mis järgnes boori aastale. See pidi tähendama aastat mahukaks süstematiseerimiseks viimastel aastatel kujunenud erinevate ühiskondlik-poliitiliste süsteemide moraalsel ja vaimsel platvormil. Süstematiseerimise vorm olevat olnud varasemast erinev ja stabiliseeriv.
-
-`r render_with_emojis(text = "((ref:year))")`.
+[@year]

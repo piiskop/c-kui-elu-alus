@@ -5,28 +5,28 @@
 \hyphenpenalty=10000
 \fontspec{Symbola}
 
-(ref:a2018-carbon) @a2018_carbon
+<!-- (ref:a2018-carbon) @a2018_carbon -->
 
-(ref:a2022-what) @a2022_what
+<!-- (ref:a2022-what) @a2022_what -->
 
-(ref:bureau-1974-the) @bureau_1974_the
+<!-- (ref:bureau-1974-the) @bureau_1974_the -->
 
-(ref:carbon) @carbon
+<!-- (ref:carbon) @carbon -->
 
-(ref:hazen-2019-why) @hazen_2019_why
+<!-- (ref:hazen-2019-why) @hazen_2019_why -->
 
-(ref:haynes-2014-crc) @haynes_2014_crc
+<!-- (ref:haynes-2014-crc) @haynes_2014_crc -->
 
-(ref:helmenstine-2020-what) @helmenstine_2020_what
+<!-- (ref:helmenstine-2020-what) @helmenstine_2020_what -->
 
-(ref:johnston-2021-conways) @johnston_2021_conways
+<!-- (ref:johnston-2021-conways) @johnston_2021_conways -->
 
-(ref:kgsau) @kgsau
+<!-- (ref:kgsau) @kgsau -->
 
-(ref:reece-2014-campbell) @reece_2014_campbell
+<!-- (ref:reece-2014-campbell) @reece_2014_campbell -->
 
-(ref:royalsocietyofchemistry-2013-carbon) @royalsocietyofchemistry_2013_carbon
+<!-- (ref:royalsocietyofchemistry-2013-carbon) @royalsocietyofchemistry_2013_carbon -->
 
-(ref:why) @why
+<!-- (ref:why) @why -->
 
-(ref:year) @year
+<!-- (ref:year) @year -->
